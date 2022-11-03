@@ -1,0 +1,139 @@
+.modal__form {
+    text-align: center;
+}
+
+.register__group {
+    margin-bottom: 20px;
+}
+
+.modal__form-group {
+    position: relative;
+    display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+}
+}
+
+.modal__form-input {
+   width: 100%;
+   padding: 12px;
+   padding-left: 39px;
+   color: #000000;
+   border: 1px solid rgba(33, 33, 33, 0.2);
+   outline: transparent;
+
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   border-radius: 4px;
+
+ &:hover,
+ &:focus{
+    border-color: var(--accent-color);
+}
+}
+
+.user__comment {
+    resize: none;
+    padding: 12px 16px;
+    height: 120px;
+
+  & {
+    width: 100%;
+    padding: 12px;
+    padding-left: 39px;
+    color: #000000;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: transparent;
+        
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+    }
+  
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+}
+}
+
+ 
+.modal__form-label {
+    display: block;
+    padding-left: 2px;
+    margin-bottom: 4px;
+
+    text-align: left;
+    font-size: 12px;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
+
+    font-family: Roboto;
+    font-style: Regular;
+
+    color: var(--primary-text-color);
+}
+
+.modal__icon {
+    position: absolute;
+    top: 29px;
+    left: 10px;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .modal__form-input:hover + &,
+    .modal__form-input:focus + & {
+        fill: var(--accent-color);
+    }
+}
+
+.agreement__group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.agreement__text{
+    color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.agreement__link {
+    color: var(--accent-color);
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+
+  &:hover,
+  &:focus {
+fill: var(--accent-color);
+}
+}
+
+.agreement__form-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.agreement__icon-check {
+    border-radius: 2px;
+    opacity: 0;
+    position: absolute;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0;
+
+    .agreement__check:checked + .agreement__icon & {
+        opacity: 1;
+    }
+}
+
+.agreement__icon-uncheck {
+.agreement__check:checked + .agreement__icon & {
+opacity: 0;
+}
+}

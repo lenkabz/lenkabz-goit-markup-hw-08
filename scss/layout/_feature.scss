@@ -1,0 +1,18 @@
+.feature {
+    padding-bottom: 0;
+}
+
+.feature__list {
+   display: flex;
+   gap: 30px;
+
+  & .list-item {
+    width: 270px;
+}
+}
+.feature__text {
+    line-height: 1.71;
+    line-height: 24px;
+    font-weight: 400;
+}
+

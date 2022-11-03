@@ -1,0 +1,15 @@
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+}
+.header__logo {
+    font-family: Raleway, cursive;
+    font-size: 26px;
+    line-height: 1.2px;
+    color: var(--title-text-color);
+    text-decoration: none;
+}

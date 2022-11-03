@@ -1,0 +1,47 @@
+.antena-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+
+    background-image: url(../images/antenna\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.clock-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+   
+    background-image: url(../images/clock\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.diagram-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+    
+    background-image: url(../images/diagram\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
+.astronaut-item::before {
+    display: block;
+    content: '';
+    height: 120px;
+
+    background-image: url(../images/astronaut\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
