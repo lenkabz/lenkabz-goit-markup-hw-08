@@ -1,7 +1,23 @@
 .footer {
     padding: 60px 0;
     background-color: var(--footer-bg-color);
+
+    @media screen and (min-width: 480px) {
+        text-align: center;
+        justify-content: center;
+       }
+       @media screen and (min-width: 768px) {
+        text-align: center;
+        justify-content: center;
+          
+          }
+          @media screen and (min-width: 1200px) {
+            text-align: left;
+            justify-content: left;
+          }
 }
+
+
 
 .logo__two {
     font-family: Raleway, cursive;
@@ -9,6 +25,20 @@
     line-height: 1.2;
     color: var(--additional-color);
     text-decoration: none;
+
+    @media screen and (min-width: 480px) {
+        text-align: center;
+        justify-content: center;
+       }
+       @media screen and (min-width: 768px) {
+        text-align: center;
+        justify-content: center;
+          }
+          @media screen and (min-width: 1200px) {
+          
+            text-align: left;
+            justify-content: left;
+          }
 }
 
 .footer__address-list {

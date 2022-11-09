@@ -5,6 +5,19 @@
  .team__list {
      display: flex;
      gap: 30px; 
+
+     @media screen and (min-width: 480px) {
+      
+        flex-wrap: wrap;
+       }
+       @media screen and (min-width: 768px) {
+          flex-wrap: wrap;
+          }
+          @media screen and (min-width: 1200px) {
+            width: 270px;
+            flex-wrap: nowrap;
+            
+           }
  }
 
  .team__junior {
@@ -13,9 +26,36 @@
   &:last-child {
      margin-right: 0;
  }
+
+ @media screen and (min-width: 480px) {
+    width: 450px;
+    
+   }
+   @media screen and (min-width: 768px) {
+       width: 354px;
+    
+      }
+      @media screen and (min-width: 1200px) {
+       width: 270px;
+       
+      }
 }
  .team__icon {
      display:block;
+
+     @media screen and (min-width: 480px) {
+        width: 450px;
+        
+       }
+       @media screen and (min-width: 768px) {
+           width: 354px;
+        
+          }
+          @media screen and (min-width: 1200px) {
+           width: 270px;
+           
+          }
+     
  }
 
  .team__person {

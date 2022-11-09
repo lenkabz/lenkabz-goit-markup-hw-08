@@ -1,5 +1,9 @@
 .header {
     border-bottom: 1px solid #ECECEC;
+
+    @media screen and (max-width: 767px) {
+        padding: 10px 0;
+    }
 }
 
 .header__container {
@@ -12,4 +16,10 @@
     line-height: 1.2px;
     color: var(--title-text-color);
     text-decoration: none;
+}
+
+.menu-btn {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
 }

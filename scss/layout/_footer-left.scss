@@ -9,6 +9,17 @@
     text-transform: uppercase;
     margin-bottom: 20px;
     color: #FFFFFF;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        
+        }
+     
+         
+
 }
 
 .footer__user-name {
@@ -31,10 +42,35 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+@media screen and (min-width: 480px) {
+    width: 450px;
+   }
+   @media screen and (min-width: 768px) {
+       width: 450px;
+      }
+      @media screen and (min-width: 1200px) {
+        width: 358px;
+    }
 }
 
 .footer__form {
     display: flex;
-    align-items: center;
+    
     gap: 12px;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+       }
+       @media screen and (min-width: 768px) {
+           width: 738px;
+           flex-direction: column;
+        align-items: center;
+    justify-content: center;
+          }
+          @media screen and (min-width: 1200px) {
+          
+          }
 }

@@ -3,9 +3,27 @@
     
 }
 .clients__list {
-    display: flex;
+   
     align-items: center;
     gap: 30px;
+
+    @media screen and (min-width: 480px) {
+       
+        flex-wrap: wrap;
+        display:flex;
+        text-align: center;
+        justify-content: center;
+        }
+        @media screen and (min-width: 768px) {
+         width: 738px;
+         flex-wrap: wrap;
+        }
+        @media screen and (min-width: 1200px) {
+         width: 1200px;
+         display: flex;
+        
+       
+ }
 }
 
 .clients__link {
