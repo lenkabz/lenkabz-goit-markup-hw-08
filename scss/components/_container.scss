@@ -24,17 +24,10 @@
         flex-wrap: wrap
        }
 
-       @media screen and (min-width: 768px) {
+       @media screen and (min-width: 768px)  {
         flex-wrap: wrap;
-        
        }
-       @media screen and (min-width: 1200px) {
-        flex-wrap: nowrap;
-        width: 1200px;
-       }
-
-}
-
+    }
 
 .container .flex {
     display: flex;

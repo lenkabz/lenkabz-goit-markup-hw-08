@@ -51,7 +51,7 @@
 @media screen and (min-width: 480px) {
     width: 450px;
    }
-   @media screen and (min-width: 768px) {
+   @media screen and (min-width: 768px) and (max-width: 1199px) {
        width: 450px;
        margin-left: 150px;
       }
@@ -62,16 +62,15 @@
 
 .footer__form {
     display: flex;
-    
     gap: 12px;
 
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
         width: 480px;
         flex-direction: column;
         align-items: center;
     justify-content: center;
        }
-       @media screen and (min-width: 768px) {
+       @media screen and (min-width: 768px) and (max-width: 1199px) {
            width: 738px;
            flex-direction: column;
         align-items: center;
