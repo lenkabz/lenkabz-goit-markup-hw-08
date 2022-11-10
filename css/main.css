@@ -1425,7 +1425,6 @@ span {
   .footer__social-list {
     margin-bottom: 60px;
     margin-left: 60px;
-    margin: top 60px;
   }
 }
 .footer__social-link {
@@ -1459,7 +1458,7 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__subscription {
-    margin-top: 60px;
+    margin-top: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
