@@ -1,5 +1,11 @@
 .footer__right--block {
     margin-left: 70px;
+    @media screen and (min-width: 768px) {
+      margin-left: 170px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-left: 0px;
+    }
 }
 
 .footer__social-list {
@@ -10,14 +16,16 @@
     fill: #FFFFFF;
 
     @media screen and (min-width: 480px) {
-      margin-bottom: 30px;
+      margin-bottom: 60px;
+      margin-left: 60px;
+      margin: top 60px; ;
 
      }
      @media screen and (min-width: 768px) {
      
         }
         @media screen and (min-width: 1200px) {
-     
+         
         }
 }
 

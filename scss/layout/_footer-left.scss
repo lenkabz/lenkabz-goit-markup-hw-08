@@ -1,5 +1,15 @@
 .footer__subscription{
-    margin-left: auto;
+    margin-top: 0;
+    @media screen and (min-width: 768px) and (max-width: 1199px){
+       margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+       }
+    @media screen and (min-width: 1200px) {
+        margin-left: auto;
+    }
 }
 
 .footer__slogan {
@@ -15,11 +25,7 @@
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
-        
-        }
-     
-         
-
+}
 }
 
 .footer__user-name {
@@ -47,6 +53,7 @@
    }
    @media screen and (min-width: 768px) {
        width: 450px;
+       margin-left: 150px;
       }
       @media screen and (min-width: 1200px) {
         width: 358px;
