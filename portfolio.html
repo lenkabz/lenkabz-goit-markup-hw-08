@@ -18,12 +18,11 @@
        
         <a href="./index.html" class="logo header__logo link"> <span>Web</span>Studio </a>
        
-        <button class="menu-btn is-open" type="button" data-menu-button>
-            <svg class="menu-btn__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
-              <use class="menu-btn__icon-open" href="./images/icons.svg#menu"></use>
-              <use class="menu-btn__icon-close" href="./images/icons.svg#menu-close"></use>
-            </svg>
-          </button>
+        <button class="menu-btn" type="button" data-menu-open>
+          <svg class="menu-btn__icon" width="40" height="40" aria-label="Переключатель мобильного меню">
+            <use class="menu-btn__icon-open" href="./images/icons.svg#menu"></use>
+          </svg>
+        </button>
           <nav class="nav">
     
 
@@ -79,13 +78,26 @@
       <ul class="container flex">
         <li class="flex__line">
           <div class="flex__product-thumb">
+            <picture>
+              <source  srcset="./images/Xportfolio/img-1@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-1@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-1@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-1@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-1@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-1@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
             <img
-            src="./images/photo1.jpg"
+            src="./images/Xportfolio/img-1@1x_lg.jpg"
             alt="Команда"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+      </picture>
+
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Технокряк</h2>
@@ -95,15 +107,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-          srcset="./images/Portfolio/img-2@1x_sm.jpg 1x, ./images/Portfolio/img-2@2x_sm.jpg 2x"
-            src="./images/Portfolio/img-2@1x_sm.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-2@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-2@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-2@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-2@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-2@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-2@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-2@1x_lg.jpg"
             alt="Баскетболісти"
-            width="370"
-            height="294"/>
+            width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Постер New Orlean vs Golden Star</h2>
@@ -113,13 +135,26 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo3.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-3@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-3@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-3@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-3@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-3@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-3@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-3@1x_lg.jpg"
+          
             alt="Логотип ресторану"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+            </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Ресторан Seafood</h2>
@@ -129,13 +164,25 @@
         
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo4.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-4@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-4@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-4@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-4@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-4@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-4@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-4@1x_lg.jpg"
             alt="Навушники"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Проект Prime</h2>
@@ -145,13 +192,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo5.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-5@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-5@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-5@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-5@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-5@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-5@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-5@1x_lg.jpg"
             alt="Бокси"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Проект Boxes</h2>
@@ -161,13 +220,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo6.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-6@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-6@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-6@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-6@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-6@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-6@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-6@1x_lg.jpg"
             alt="Монітор"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Inspiration has no Borders</h2>
@@ -177,13 +248,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo7.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-7@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-7@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-7@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-7@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-7@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-7@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-7@1x_lg.jpg"
             alt="Журнал"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Издание Limited Edition</h2>
@@ -193,13 +276,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo8.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-8@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-8@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-8@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-8@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-8@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-8@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-8@1x_lg.jpg"
             alt="Бирка"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+          </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Проект LAB</h2>
@@ -209,13 +304,25 @@
 
         <li class="flex__line">
           <div class="flex__product-thumb">
-          <img
-            src="./images/photo9.jpg"
+            <picture>
+              <source  srcset="./images/Xportfolio/img-9@1x_lg.jpg 1x, 
+                               ./images/Xportfolio/img-9@2x_lg.jpg 2x"
+                               media="(min-width: 1200px)"/>
+              <source  srcset="./images/Xportfolio/img-9@1x_md.jpg 1x,
+                               ./images/Xportfolio/img-9@2x_md.jpg 2x"
+                               media="(min-width: 768px)"/>
+              <source  srcset="./images/Xportfolio/img-9@1x_sm.jpg 1x,
+                               ./images/Xportfolio/img-9@2x_sm.jpg 2x"
+                               media="(max-width: 767px)"/>
+            
+            <img
+            src="./images/Xportfolio/img-9@1x_lg.jpg"
             alt="Команда"
             width="370"/>
             <div class="flex__product-actions">
               <p class="flex__product-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице. </p>
             </div>
+            </picture>
           </div>
             <div class="flex__line-wrap">
           <h2 class="flex__point">Growing Business</h2>
@@ -324,19 +431,19 @@
   </div>
 </div>
 <!-- Mobile menu -->
-<div class="menu-overlay " data-menu>
+<div class="menu-overlay" data-menu>
   <div class="menu-container">
     <button class="menu-bth" type="button" data-menu-close>
       <svg class="menu-close-bth" width="40" height="40">
-        <use href="./images/icons.svg#menu-"></use>
+        <use class="menu-btn__icon-close" href="./images/icons.svg#menu-close"></use>
       </svg>
     </button>
     <ul class="mobile-nav__list">
       <li class="mobile-nav__item">
-        <a class="mobile-nav__link" href="./index.html">Студия</a>
+        <a class="mobile-nav__link current" href="./index.html">Студия</a>
       </li>
       <li class="mobile-nav__item">
-        <a class="mobile-nav__link current" href="./portfolio.html">Портфолио</a>
+        <a class="mobile-nav__link" href="./portfolio.html">Портфолио</a>
       </li>
       <li class="mobile-nav__item">
         <a class="mobile-nav__link" href="">Контакты</a>
