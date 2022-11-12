@@ -998,7 +998,7 @@ span {
 }
 @media screen and (min-width: 1200px) {
   .feature__list {
-    width: 1200px;
+    width: 1170px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -1228,6 +1228,7 @@ span {
 }
 @media screen and (min-width: 480px) {
   .clients__list {
+    width: 450px;
     gap: 20px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1249,7 +1250,7 @@ span {
 }
 @media screen and (min-width: 1200px) {
   .clients__list {
-    width: 1200px;
+    width: 1170px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
