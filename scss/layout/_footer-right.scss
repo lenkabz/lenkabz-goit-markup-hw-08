@@ -1,10 +1,15 @@
 .footer__right--block {
   @media screen and (min-width: 480px) and (max-width: 1199px) {
-    margin-left: 70px;
+    margin-bottom: 60px;
+     
    }
    
     @media screen and (min-width: 768px) and (max-width: 1199px) {
       margin-left: 170px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      margin-left: 70px;
     }
   
 }
@@ -17,8 +22,7 @@
     fill: #FFFFFF;
 
     @media screen and (min-width: 480px) {
-      margin-bottom: 60px;
-      margin-left: 60px; 
+      
 
      }
      @media screen and (min-width: 768px) {
@@ -51,3 +55,4 @@
 }
 }
 }
+
