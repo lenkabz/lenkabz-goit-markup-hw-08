@@ -1228,7 +1228,6 @@ span {
 }
 @media screen and (min-width: 480px) {
   .clients__list {
-    width: 480px;
     gap: 20px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
