@@ -80,6 +80,11 @@ span {
   padding-left: 15px;
   padding-right: 15px;
 }
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 480px;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
@@ -99,7 +104,7 @@ span {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .contacts-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -116,6 +121,9 @@ span {
   .contacts-container {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -147,13 +155,7 @@ span {
   letter-spacing: 0.06em;
   color: var(--additional-color);
 }
-@media screen and (min-width: 480px) {
-  .hero__title {
-    line-height: 1.6;
-    font-size: 26px;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .hero__title {
     line-height: 1.6;
     font-size: 26px;
@@ -183,7 +185,7 @@ span {
   margin-bottom: 10px;
   color: var(--selective-color);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .feature__title {
     text-align: center;
     -webkit-box-pack: center;
@@ -219,7 +221,7 @@ span {
   color: var(--selective-color);
   margin-bottom: 50px;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .team__title {
     margin-bottom: 30px;
     font-size: 28px;
@@ -234,7 +236,7 @@ span {
   color: var(--selective-color);
   margin-bottom: 50px;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .clients__title {
     margin-bottom: 30px;
     font-size: 28px;
@@ -249,6 +251,7 @@ span {
   margin-bottom: 20px;
   color: #FFFFFF;
 }
+
 .hero__button {
   border: none;
   border-radius: 4px;
@@ -574,9 +577,8 @@ span {
   pointer-events: initial;
   visibility: visible;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .menu-overlay.is-open {
-    width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -790,7 +792,7 @@ span {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .nav {
     display: none;
   }
@@ -866,6 +868,7 @@ span {
           justify-content: center;
   margin-left: auto;
   gap: 50px;
+  margin: 10px;
 }
 @media screen and (max-width: 767px) {
   .nav-auth {
@@ -899,6 +902,8 @@ span {
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 .nav__contacts-link:hover, .nav__contacts-link:focus {
   color: var(--accent-color);
@@ -933,7 +938,7 @@ span {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/Hero-2x-sm.jpg");
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
@@ -969,8 +974,7 @@ span {
 }
 
 .feature {
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding-top: 94px;
 }
 
 .feature__list {
@@ -982,7 +986,7 @@ span {
 .feature__list .list__item {
   width: 270px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .feature__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1042,12 +1046,7 @@ span {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 480px) {
-  .work {
-    display: none;
-  }
-}
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .work {
     display: none;
   }
@@ -1093,8 +1092,12 @@ span {
   display: flex;
   gap: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__list {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1110,6 +1113,9 @@ span {
     width: 270px;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1119,7 +1125,7 @@ span {
 .team__junior:last-child {
   margin-right: 0;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__junior {
     width: 450px;
   }
@@ -1138,7 +1144,7 @@ span {
 .team__icon {
   display: block;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .team__icon {
     width: 450px;
   }
@@ -1226,9 +1232,8 @@ span {
           align-items: center;
   gap: 30px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .clients__list {
-    width: 450px;
     gap: 20px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1246,6 +1251,9 @@ span {
     width: 738px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1280,12 +1288,12 @@ span {
   width: 170px;
   height: 92px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .clients__item {
     width: 210px;
   }
 }
-@media screen and (min-width: 767px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients__item {
     width: 226px;
   }
@@ -1306,7 +1314,7 @@ span {
   padding: 60px 0;
   background-color: var(--footer-bg-color);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer {
     text-align: center;
     -webkit-box-pack: center;
@@ -1338,7 +1346,7 @@ span {
   color: var(--additional-color);
   text-decoration: none;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .logo__two {
     text-align: center;
     -webkit-box-pack: center;
@@ -1388,17 +1396,11 @@ span {
   margin-bottom: 9px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .footer__section {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer__section {
-    margin-left: 30px;
-  }
-}
-
 .general {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1407,7 +1409,7 @@ span {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .general {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1421,10 +1423,20 @@ span {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-left: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 1200px) {
+  .general {
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .footer__right--block {
     margin-bottom: 60px;
   }
@@ -1485,7 +1497,7 @@ span {
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__subscription {
-    margin-top: 30px;
+    margin-top: 60px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1513,7 +1525,7 @@ span {
   margin-bottom: 20px;
   color: #FFFFFF;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer__slogan {
     text-align: center;
     -webkit-box-pack: center;
@@ -1546,7 +1558,7 @@ span {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer__user-name {
     width: 450px;
   }
@@ -1568,7 +1580,7 @@ span {
   display: flex;
   gap: 12px;
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .footer__form {
     width: 450px;
     -webkit-box-orient: vertical;

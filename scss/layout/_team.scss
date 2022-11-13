@@ -6,16 +6,19 @@
      display: flex;
      gap: 30px; 
 
-     @media screen and (min-width: 480px) {
-      
+     @media screen and (max-width: 767px) {
+        text-align: center;
+        justify-content: center;
         flex-wrap: wrap;
        }
        @media screen and (min-width: 768px) {
           flex-wrap: wrap;
+          
           }
           @media screen and (min-width: 1200px) {
             width: 270px;
             flex-wrap: nowrap;
+            display: flex;
             
            }
  }
@@ -27,7 +30,7 @@
      margin-right: 0;
  }
 
- @media screen and (min-width: 480px) {
+ @media screen and (max-width: 767px) {
     width: 450px;
     
    }
@@ -43,7 +46,7 @@
  .team__icon {
      display:block;
 
-     @media screen and (min-width: 480px) {
+     @media screen and (max-width: 767px) {
         width: 450px;
         
        }

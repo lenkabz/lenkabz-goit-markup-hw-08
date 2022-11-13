@@ -43,9 +43,8 @@
   pointer-events: initial;
   visibility: visible;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .menu-overlay.is-open {
-    width: 480px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
